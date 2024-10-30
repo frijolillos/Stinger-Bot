@@ -145,7 +145,7 @@ public class RobotContainer {
     operatorController.y()
       .onTrue(
         new ParallelCommandGroup(
-          new InstantCommand(()-> armSub.setPosition(0.218), armSub), // intial pos 0.23
+          new InstantCommand(()-> armSub.setPosition(0.218), armSub), // pos 0.23
           new InstantCommand(() -> shooterSub.redirect(-0.35), shooterSub)));
 
 
