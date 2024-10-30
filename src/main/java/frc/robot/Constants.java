@@ -164,8 +164,8 @@ public class Constants {
         public static final int bottomID = 18;
 
         //Duty cycle value [quick backup shots]
-        public static final double dutySpeakerShot = 0.60;//origin 0.50
-        public static final double dutyAmpShot = 0.22;//Origin .20
+        public static final double dutySpeakerShot = 0.60;// was 0.50
+        public static final double dutyAmpShot = 0.22;// was .20
 
         public static final double shooterTolerence = 10;
 
